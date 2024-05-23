@@ -8,7 +8,19 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>Hello hello</h1>
+    <form class = "form">
+     <input id = "search-input"
+     type = "text"
+     name = "search"
+     placeholder="search images..."
+     required
+     />
+     <button class = "search-btn" type = "submit">search</button>
+    </form>
+    <div class = "gallery-box">
+      <span class = "loader"></span>
+      <ul class = "gallery"></ul>
+    </div>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
