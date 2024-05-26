@@ -7,22 +7,22 @@
     <title>HW-11</title>
     
     <script type="module" crossorigin src="/goit-js-hw-11/commonHelpers.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-8c59ed88.js">
-    <link rel="stylesheet" href="/goit-js-hw-11/assets/vendor-1cd1f9d9.css">
-    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-b3d1a2ef.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-0fc460d7.js">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/vendor-4b066c51.css">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-c454d0d8.css">
   </head>
   <body>
     <form class = "form">
-     <input id = "search-input"
+     <input class = "input" id = "search-input"
      type = "text"
      name = "search"
-     placeholder="search images..."
+     placeholder="    Search images..."
      required
      />
      <button class = "search-btn" type = "submit">search</button>
     </form>
     <div class = "gallery-box">
-      <span class = "loader"></span>
+      <div class = "loader">Loading images, please wait...</div>
       <ul class = "gallery"></ul>
     </div>
     
